@@ -1,0 +1,37 @@
+html, body {
+    margin:0;
+    text-align: center; /*this line will center all the components in the body to center given the condition their block is intact. It means we should not specify any width for them*/
+    font-family: 'Merriweather', serif;
+}
+.top-container {
+    background-color: #E4F9F5;
+    position:relative;
+    padding-top:100px;
+    height:100%
+}
+.top-cloud{
+    position: absolute;
+    right: 550px;
+    top: 50px;
+}
+.bottom-cloud{
+    position: absolute;
+    let:300px;
+    bottom: 320px;
+}
+h1 {
+    font-size: 5.62rem; /*16px = 1em = 100%, 5.62em = 90px. We chose em so that our font in dynamic.*/
+    margin-top: 0px;
+    font-family: 'Sacramento', cursive;
+    color: #00C897;
+}
+h2 {
+    font-family: 'Montserrat', cursive;
+    font-size: 2.5rem
+}
+h3 {
+    font-family: 'Montserrat', cursive;
+}
+
+.mountain{
+}
