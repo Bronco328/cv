@@ -1,0 +1,135 @@
+body {
+    margin:0;
+    text-align: center; /*this line will center all the components in the body to center given the condition their block is intact. It means we should not specify any width for them*/
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+hr {
+    margin-top:50px;
+   border-style: none;
+   border-bottom-style: dotted;
+   border-color: grey;
+   border-width:5px;
+   width: 5%
+}
+.top-container {
+    background-color: #E4F9F5;
+    position:relative;
+    padding-top:100px;
+    line-height:2;
+}
+.top-cloud{
+    position: absolute;
+    right: 550px;
+    top: 150px;
+}
+.bottom-cloud{
+    position: absolute;
+    left:500px;
+    bottom: 320px;
+}
+.skill-img1{
+    border-radius:100px;
+    width: 15%;
+    float:left;
+    margin: 0 30px;
+
+}
+.skill-img2 {
+    width: 15%;
+    float:right;
+    margin: 0px;
+
+}
+.skill-row{
+    width: 50%;
+    text-align:left;
+    margin:100px auto 100px auto;
+    line-height:2;
+
+}
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', cursive;
+
+}
+
+.footer-link{
+    color: #11999E;
+}
+.middle-container {
+   margin:100px 0;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    margin:0;
+    height:150px;
+    padding: 50px 0 20px;
+}
+p{
+    line-height: 2;
+}
+.copyright{
+    margin-top:80px;
+    color:#EAF6F6;
+    font-size:0.75rem;
+
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.description{
+    width:30%;
+    margin: auto auto 100px 700px;
+}
+.skills{
+    margin: 100px 0;
+}
